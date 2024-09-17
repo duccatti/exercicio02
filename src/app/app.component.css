@@ -1,0 +1,44 @@
+.ativo {
+    color: #9200af
+}
+
+header {
+    color: #fff;
+    background-color: #000;
+    display: flex;
+    max-width: 1600px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px;
+    padding: 10px 25px;
+}
+
+h1 {
+    transition: 0.2s;
+}
+
+h1:hover {
+    color: #9200af;
+    cursor: default
+}
+
+a{
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li a {
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+li a:hover {
+    color: #9200af;
+}
