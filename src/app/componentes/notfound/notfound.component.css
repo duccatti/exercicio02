@@ -1,0 +1,14 @@
+div {
+    align-items: center;
+    text-align: center;
+    margin: 100px auto;
+    width: 800px;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+div h1 {
+    font-size: 50px;
+    padding-bottom: 50px;
+    color: #000;
+}

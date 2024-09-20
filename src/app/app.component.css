@@ -3,23 +3,25 @@
 }
 
 header {
-    color: #fff;
-    background-color: #000;
+    color: #b904dd;
+    background-color: #000000;
     display: flex;
     max-width: 1600px;
     justify-content: space-between;
     align-items: center;
     margin: 0px 0px;
-    padding: 10px 25px;
+    padding: 25px 25px 20px;
 }
 
 h1 {
     transition: 0.2s;
+    user-select: none;
 }
 
 h1:hover {
-    color: #9200af;
-    cursor: default
+    cursor: default;
+    text-decoration: underline;
+    
 }
 
 a{
@@ -35,10 +37,13 @@ ul {
 li a {
     color: #fff;
     font-size: 20px;
-    border-radius: 50%;
+    border-radius: 20px;
+    padding: 10px;
     transition: 0.2s;
+    user-select: none;
 }
 
 li a:hover {
     color: #9200af;
+    background-color: #fff;
 }
